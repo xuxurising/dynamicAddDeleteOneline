@@ -1,0 +1,562 @@
+.length-left div{
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.length-left label{  
+  font-family: '微软雅黑 Regular', '微软雅黑';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.length-middle div{
+  float: left;
+  font-family: '微软雅黑 Regular', '微软雅黑';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 15px;
+}
+.length-right{
+  float: right;
+  margin-top: -10px;
+}
+.table-bordered{
+  border:0px;
+}
+.title-table {
+  width: 100%;
+  border: 0px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+}
+.title-table tr{
+    height: 32px;
+}
+.title-table span {
+  font-size:20px;
+  line-height: 20px;
+  color:#373737;
+  float: left;
+}
+.title-table .line{
+  width: 100%;
+  border-top: 1px solid #D2D6DE;
+}
+.title-table .switch{
+  float: right;
+  width:56px;
+  height:32px;
+  border:1px solid #D2D6DE;
+}
+.title-table .filter3D{
+  line-height: 32px;
+  margin-left:8px;
+  font-size:14px;
+  color:#414141;
+  float: left;
+}
+.title-table .icon{
+  width: 19px;
+  height: 18px;
+  float: right;
+  margin-top: 6px;
+  margin-right:5px;
+}
+.filter3DIcon{
+  background:url('../img/alarmManage/leftbat_icon_3d.png') no-repeat;
+}
+.filter3DIcon:hover{
+  cursor:pointer;
+  background:url('../img/alarmManage/leftbat_icon_3d.png') no-repeat;
+}
+.title-table .icon:hover{
+  cursor:pointer;
+  
+}
+.btn-title{		
+	padding:2px 10px; 
+	font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight: 400;
+  font-style:normal;
+  font-size:14px;
+  width: 60px;
+  height: 28px;
+  color: #D1D4D9;	
+  background-color: #FAFBFC;
+  border: 1px solid #D2D6DE;
+}
+.btn-title:hover{
+  background-color:#ffc833;
+  border:1px solid #ffc833;
+  color: #FFFFFF;
+}
+
+.selected{
+  background-color:#ffc833;
+  border:1px solid #FB9F00;
+  color: #FFFFFF !important;
+}
+.highlight{background:url('../img/home/bg_level1.png') no-repeat;}
+
+
+
+
+.btn-ref{
+  padding:2px 5px;
+  float: right;
+  width: 28px;
+  height: 28px;
+  border:1px solid #D2D6DE;
+}
+.btn-refIcon{
+  background:url('../../dist/img/alarmManage/rightbar_refsh.png') no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 2px 1px;
+}
+.btn-refIcon:hover{
+  cursor:pointer;
+}
+.btn-arrow{
+  float:right;
+  width:38px;
+  height:28px;  
+  font-size:14px;
+  color:#666666;
+  border:1px solid #D2D6DE;
+  border-left: 0px;
+  background-color: #FFFFFF;
+}
+
+.contable{
+  border:1px solid #D2D6DE;
+  padding: 2px 14px;
+}
+.data-title{
+	float:left;
+	width:100%;
+	border-bottom:1px solid #cccccc;
+  height: 38px;
+}
+/* fixed的表格才可以使单元格显示省略号*/
+.table{ 
+  table-layout:fixed; 
+} 
+.task-table>tbody>tr>td, .task-table>tbody>tr>th, .task-table>tfoot>tr>td, .task-table>tfoot>tr>th, .task-table>thead>tr>td, .task-table>thead>tr>th {
+  padding:4px;
+  text-align: left;
+  font-style:normal;
+  font-weight: 400;
+  font-size:12px; 
+  font-family:'微软雅黑 Bold', '微软雅黑';
+}
+.task-table>tbody>tr>td{
+  border-top: 1px solid #ccc;
+  vertical-align:middle;
+}
+.task-table>thead>tr>td, .task-table>thead>tr>th{
+  font-size:14px; 
+  color:#4D4D4D;
+  height:35px;
+  line-height:35px;
+  border-bottom:0px solid #3B83E6;
+}
+.task-table .headline{
+  border-right:#ccc 1px solid;
+}
+.task-table .line-ellipsis{
+  border-right:#ccc 1px solid;
+  height: 30px;
+  padding-top: 5px;
+  white-space: nowrap;/* 超长文字单元格省略号显示 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 超长文字单元格省略号显示 */
+.task-table .bodyline{
+  border-right:#ccc 1px solid;
+  height: 30px;
+  padding-top: 5px;
+ 
+}
+
+.task-table .th-ellipsis{
+  white-space: nowrap;/* 超长文字单元格省略号显示 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+  cursor: pointer;
+  *cursor: hand;
+}
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+table.dataTable thead .sorting {
+ /* background-image: url("../img/sort_both.png");*/
+ background-image: url("../img/sort_desc.png");
+
+}
+table.dataTable thead .sorting_asc {
+  background-image: url("../img/sort_asc.png");
+}
+table.dataTable thead .sorting_desc {
+  background-image: url("../img/sort_desc.png");
+}
+table.dataTable thead .sorting_asc_disabled {
+  background-image: url("../img/sort_asc_disabled.png");
+}
+table.dataTable thead .sorting_desc_disabled {
+  background-image: url("../img/sort_desc_disabled.png");
+}
+#btn-down i{
+  color: #3B83E6;
+  font-size: 14px;
+}
+.coumnLI{
+ background: #000;
+}
+.drop-sel li{
+  margin-left:20px;
+}
+.drop-sel{
+	margin-top: -1px;
+	min-width:120px;
+	border:1px solid #cccccc;
+	border-radius:1;
+	right: -1px;
+    left: auto;
+}
+.detail-div{
+  height: 135px;
+  overflow:auto;
+  overflow-x:hidden;
+}
+ /*按钮*/
+.btn-status-bulided{
+  padding:0 2px;
+  font-family: 'Arial Normal', 'Arial';
+  font-weight: 400;
+  font-style:normal;
+  font-size:13px;
+  background-color:#ffc833;
+  border: 1px solid #ffc833;
+  color: #fff;
+}
+.btn-status-bulided:hover{
+  color: #fff;
+}
+.btn-status-bulided.focus,.btn-status-bulided:focus{
+
+}
+.btn-status-unbulid{
+  padding:0 2px;
+  font-family: 'Arial Normal', 'Arial';
+  font-weight: 400;
+  font-style:normal;
+  font-size:13px;
+  background-color:#3B83E6;
+  color: #fff;
+}
+.btn-status-unbulid:hover{
+  background-color: #9DC1F3;
+  color: #fff;
+}
+.btn-status-add{
+    padding:2px;
+    width: 24px;
+    height: 24px;
+    background-color:#3B83E6;
+}
+.btn-status-add:hover{
+    background-color:#9DC1F3;
+}
+.btn-tar{
+    padding:2px 14px;
+    font-family:'微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style:normal;
+    font-size:14px;
+    width: 60px;
+    height: 28px;
+    color:#fff;
+    background-color:#4ea4fd;
+}
+.btn-tar.focus, .btn-tar:focus,.btn-status-bulided.focus,.btn-status-bulided:focus,.btn-status-unbulid.focus,.btn-status-unbulid:focus{
+    color:#fff;
+}
+.btn-tar:hover{
+    color:#fff;
+    background-color:#4692e3;
+}
+.table_bottom_confirm{
+   background-image: url("../img/alarmManage/table_bottom_confirm.png");
+   background-repeat: no-repeat;
+   border: 0px;
+   float: left;
+   width: 18px;
+   height: 18px;
+   margin-top: 5px;
+}
+
+.hideOption .table_bottom_confirm{
+  display: none;
+}
+.table_bottom_confirm:hover{
+   cursor: pointer;
+   background-image: url("../img/alarmManage/table_bottom_confirm-hover.png");
+
+}
+.leftbat_table_3d{
+   background-image: url("../img/alarmManage/leftbat_table_3d.png");
+   background-repeat: no-repeat;
+   border: 0px;
+   float: left;
+   width: 18px;
+   height: 18px;
+   margin-left: 3px;
+   margin-top: 5px;
+}
+.leftbat_table_3d:hover{
+   cursor: pointer;
+   background-image: url("../img/alarmManage/leftbat_table_3d-hover.png");
+ }
+.leftbat_table_arrow{
+   cursor: pointer;
+   background-image: url("../img/alarmManage/leftbat_table_arrow.png");
+   background-repeat: no-repeat;
+   border: 0px;
+   float: left;
+   width: 15px;
+   height: 18px;
+
+}
+.leftbat_table_arrow_active{
+   cursor: pointer;
+   background-image: url("../img/alarmManage/leftbat_table_arrow-active.png");
+   background-repeat: no-repeat;
+   border: 0px;
+   float: left;
+   width: 18px;
+   height: 18px;
+}
+.details-control{
+  float: left;
+  width: 25px;
+  height: 30px;
+  margin-top: -25px;
+  margin-left:40px;
+}
+.detail-data{
+  table-layout:fixed;
+}
+.detail-data td{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  word-break:keep-all;
+  white-space:nowrap;
+}
+.option {
+  padding-top: 4px;
+}
+.option .bodyline{
+  border-right:#ccc 1px solid;
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+}
+.option .bodyline2{
+  float: left;
+  border-right:#ccc 1px solid;
+  width: 55px;
+  height: 30px;
+  padding-top: 5px;
+  margin-top: -25px;
+}
+.fa-angle-right,.fa-angle-down,.fa-angle-up{
+  font-size: 20px;
+ 
+}
+
+.box-body{
+  position:relative;
+  width:100%;
+  font-family:'微软雅黑 Regular', '微软雅黑',sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  background-color:#FFFFFF;
+}
+
+.table-title{
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-align:center;
+}
+.selectNum{
+  height: 20px;
+}
+.table-bordered{
+  border:0px !important;
+}
+
+/** 过滤器相关样式 **/
+body{
+	font-family:"Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color:#f2f2f2;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family:"Microsoft YaHei",'Source Sans Pro',sans-serif;
+}
+.box-title{
+	font-family:"Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px;
+}
+.box-header{
+	background-color:#F8FAFB;border-bottom: 1px solid #D2D6DE;
+}
+.box-body{
+	padding:10px 0;
+}
+#conTab tr td{
+	padding:8px 0;
+}
+#conTab .tdHint{
+	width:60px;
+	padding-right:8px;
+	text-align:right;
+}
+#conTab .tdHintR{
+	width:110px;
+	padding-right:8px;
+	text-align:right;
+}
+#conTab .tdHintCol{
+	padding-left:8px;
+}
+.favEdit{
+	font-size:25px;
+	vertical-align: middle;
+	cursor:pointer;
+}
+.form-control{
+	width:340px;
+	height:25px;
+	padding:1px 8px;
+}
+#conTab .form-control{
+	display: inline-block;
+}
+.Favorites{
+	width:254px;
+	display:table-cell;
+}
+.ztContent{
+	margin-top:0;
+	width:340px;
+	min-height:200px;
+	height:300px;
+	max-height:400px;
+	padding:5px 0;
+	border:1px solid #3c8dbc;
+	border-top:none;
+	background-color:#fcfcfc;
+	display:none;
+	position: absolute;
+	z-index:9055;
+}
+.divZtLoading{
+	width:100%;
+	padding-top: 6px;
+	padding-left: 6px;
+	text-align:center;
+}
+div.dataTables_processing {
+    position: absolute;
+    top: 128px;
+    left: 50%;
+    width: 100%;
+    height: 96%;
+    margin-left: -50%;
+    margin-top: -25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: white;
+	z-index: 33;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(25%, rgba(255,255,255,0.9)), color-stop(75%, rgba(255,255,255,0.9)), color-stop(100%, rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+}
+.overlay-wrapper{
+	position:relative;
+}
+.dataTables_wrapper .overlay-wrapper .overlay>.fa {
+    top: 20%;
+}
+
+#loadingDiv .modal-dialog{
+	width: 300px;
+    top: 40%;
+    margin-top: -30px;
+    left: 50%;
+    margin-left: -150px;
+    position: absolute;
+    text-align: center;
+}
+
+#loadingDiv .modal-content .overlay{
+	height:80px;
+}
+
+.dataTables_length .form-control {
+    width:auto\9;
+    display:inline-block\9;
+}
+.modal-content {
+  background-color: #fff;
+}
+
+/********* 国际化语言样式 ****************/
+[lang="en-us"] .btn-arrow{
+	width: 46px;
+}
+
+[lang="en-us"] .btn-title{
+	padding: 2px 6px;
+    width: auto;
+	min-width:60px;
+}
+
+[lang="en-us"] .drop-sel {
+    margin-top: -1px;
+    min-width: 160px;
+	right: -1px;
+    left: auto;
+}
+
+.subTHint{
+	width: 100px;
+	padding-right:12px;
+}
+
+[lang="en-us"] .subTHint{
+	width: 150px;
+	padding-right:12px;
+}

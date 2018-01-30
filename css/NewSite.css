@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+.newsitebtn{
+	text-align:center;
+}
+#servicelevel{
+	border-spacing:0;
+	line-height:1.4285;
+    border:1px solid ##F4F4F5;
+}
+#servicelevel >tbody >tr >td {
+	border:1px solid #F4F4F5;
+	text-align:center;
+}
+#servicelevel >tbody >tr >td >select{
+	border:0px solid #F4F4F5;
+	text-align:center;
+}
+#devicelist{
+	border-spacing:0;
+	line-height:1.4285;
+	border:1px solid ##F4F4F5;
+}
+#devicelist  >tbody >tr >td {
+	border:1px solid #F4F4F5;
+
+}
+#devicelist  >tbody >tr >td >input{
+	border:0px solid #F4F4F5;
+	text-align:center;
+}
+#devicelist  >tbody >tr >td >select{
+border:0px solid #F4F4F5;
+	text-align:center;
+}
+.sitetable{
+	border-spacing:0;
+	line-height:1.4285;
+	border:1px solid ##F4F4F5;
+}
+.sitetable  >tbody >tr >td {
+	border:1px solid #F4F4F5;
+	text-align:center;
+}
+.sitetable  >tbody >tr >td >input{
+	border:0px solid #F4F4F5;
+	text-align:center;
+}
+.sitetable  >tbody >tr >td >select{
+	border:0px solid #F4F4F5;
+	text-align:center;
+}
+.form-select{
+	 border-radius: 2px;
+    box-shadow: none;
+    border-color: #e1e6ee;
+    font-size: 14px;
+    line-height: 24px;
+    height:28px;
+    padding:2px 10px;
+}
+.form-group{
+	/* margin-top:-3px; */
+	margin-bottom:10px
+} 
+.addrow{
+
+}
+.deleterow{
+	
+}
+:-moz-placeholder { 
+    color: #000; opacity:1; 
+}
+
+::-moz-placeholder {
+    color: #000;opacity:1;
+}
+
+input:-ms-input-placeholder{
+    color: #000;opacity:1;
+}
+
+input::-webkit-input-placeholder{
+    color: #000;opacity:1;
+}

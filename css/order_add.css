@@ -1,0 +1,291 @@
+@CHARSET "UTF-8";
+ #serverceTabs{
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:1%;
+	border-radius:2px;
+	border:2px solid  #F1F2F3;
+ }
+
+ .box-header {
+	padding-top:20px;
+ }
+ .form-span{
+	 border-radius: 2px;
+    box-shadow: none;
+    font-size: 14px;
+    line-height: 24px;
+    height:28px;
+   /*  padding:4px 10px; */
+ }
+ .tabheader{
+	margin-left:1.3%;
+	margin-top:1%;
+ }
+ .panel-group{
+	margin-right:2%;
+ }
+ .btn-ope{
+	text-align:center;
+ }
+ .panel-heading{
+	padding-top:3px;
+	padding-buttom:3px;
+ }
+ .panel-title {
+	font-size:14px;
+ }
+ .timelengthinput{
+	display:inline;
+ }
+ .openservice {
+	display: block; 
+    height: 34px; 
+    width: 107px; 
+    line-height: 2; 
+    text-align: center; 
+    background: #E8303D; 
+    text-align:center;
+    color: #ffffff; 
+    font-size: 14px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    padding-top: 0px; 
+    border-radius:5px;
+	backgroud-image:none;
+ }
+ .control-label{
+	
+ }
+ .tab-content{
+	
+ }
+ .serviceLevel_0{
+	display:inline;
+	background-color: #d2d2d4; 
+	font-size:15px;
+	color:#fff;
+	border-radius:2px;
+	width:30px;
+ }
+ .serviceLevel_1{
+	display:inline;
+	background-color:#79c1fc; 
+	font-size:15px;
+	color:#fff;
+	border-radius:2px;
+	width:30px;
+ }
+ .serviceLevel_2{
+	display:inline;
+	background-color: #79c1fc; 
+	font-size:15px;
+	color:#fff;
+	border-radius:2px;
+	width:30px;
+ }
+ .serviceLevel_3{
+	display:inline;
+	background-color: #79c1fc; 
+	font-size:15px;
+	color:#fff;
+	border-radius:2px;
+	width:60px;
+ }
+ .serviceLevel_4{
+	display:inline;
+	background-color: #79c1fc; 
+	font-size:15px;
+	color:#fff;
+	border-radius:2px;
+	width:60px;
+ }
+ .serviceLevel_5{
+	display:inline;
+	background-color: #79c1fc; 
+	font-size:15px;
+	color:#fff;
+	border-radius:2px;
+	width:60px;
+ }
+ .empty{
+	height:10px;
+ }
+ .btn-align {
+	text-align:center;
+ }
+ .bottomLine{
+	border-bottom-color:#E9E9EB;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+ }
+
+/*改变鼠标样式*/
+/*  a.icloud-icon-edit:hover{cursor:default;}
+a.icloud-icon-del:hover{cursor:default;} */
+/*  a.icloud-icon-edit:disabled{cursor:not-allowed;}
+a.icloud-icon-del:disabled{cursor:not-allowed;}   */
+ .disabled{pointer-events:none}
+
+/*绑定订单用到样式*/
+ .bind-left{
+	
+	text-align:left;
+ }
+ .bind-right{
+	
+	text-align:right;
+ }
+ .bind-center{
+
+	text-align:center;
+ }
+ .bind-header {
+	margin-top:40px;
+	
+ }
+ .bind-footer{
+	margin-top:20px;
+ }
+/*订单查看界面*/
+ .icloud-editSpan{
+	color: #000000;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    padding-top:5px;
+  /*   font-weight: bolder; */
+ }
+ .icloud-viewSpan{
+	color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top:4px;
+ }
+ .icloud-viewLabel{
+	color: #999999;
+ }
+
+ .icloud-bindeditSpan{
+	color: #000000;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    padding-top:4px;
+  /*   font-weight: bolder; */
+ }
+/*绑定订单用到样式*/
+ .znv-icon-binding{
+   border: 0px solid rgba(29, 47, 82, 0.71);
+   width: 25px;
+   height: 25px;
+   text-align: center;
+   display: inline-block;
+ }
+ 
+
+/**添加销售员*/
+ #opensalelist{
+	background-image:url('../../../resources/img/btn_ico_add-number.png');
+	background-repeat:no-repeat;
+	background-position:center center ;
+	line-height:95%;
+	vertical-align:midde;
+	text-align:right;
+ } 
+
+/*搜索按钮的大小*/
+ .size-32 {
+	font-size: 20px;
+ }
+ .icon-white {color: #ffffff;}
+
+ #opensalelist1{
+	background-image:url('../../../resources/img/button_ico_added.png');
+	background-repeat:no-repeat;
+	background-position:center center ;
+	line-height:95%;
+	vertical-align:midde;
+
+	
+	/*  
+      background-color: #3dd1be; */
+ }
+ .btn-size{
+	width:30px;
+	height:27px;
+ }
+
+ #addsitebtn{
+	/* background-image:url('../../../resources/img/button_ico_added.png'); */
+	background-repeat:no-repeat;
+	background-position:left center ;
+	line-height:95%;
+	vertical-align:midde;
+
+	
+	text-align:right;
+ }
+ .rowmargin{
+	margin-top:10px;
+ }
+ .marginborder{
+	margin-bottom:10px;
+ }
+
+@media (max-width: 140px){
+    #serlenDiv{
+	margin-left:25px;
+	}
+   #opensaleDiv{
+	margin-left:25px;
+	}
+}
+@media (min-width: 768px){
+    #serlenDiv{
+	margin-left:144px;
+	}
+   #opensaleDiv{
+	margin-left:144px;
+	}
+   .form-group {
+	padding-left:30px !important;
+	
+    }
+    .control-label {
+	    padding-top: 6px;
+    }
+	
+}
+@media (min-width: 992px){
+    #serlenDiv{
+	margin-left:-80px;}
+   #opensaleDiv{
+	margin-left:-100px;
+	}
+	.form-group {
+	padding-left:-50px !important;
+	
+   }
+   .control-label {
+	    padding-top: 6px;
+   }
+}
+@media (min-width: 1200px){
+   #serlenDiv{
+	margin-left:-80px;}
+   #opensaleDiv{
+	margin-left:-100px;
+	}
+	
+}
+
+/* .fa-chevron-up{ */
+/* 	background-image:url('../../../resources/img/content_drop-down_ico_up_norm.png'); */
+/* } */
+/* .fa-chevron-down{ */
+/* 	background-image:url('../../../resources/img/content_drop-down_ico_down_norm.png'); */
+/* } */
+/* .fa-chevron-down:click{ */
+/* 	background-image:url('../../../resources/img/content_drop-down_ico_down_press.png'); */
+/* } */
